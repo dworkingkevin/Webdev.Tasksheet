@@ -1,0 +1,57 @@
+body {
+    font-family: "Good Sans", Helvetica;
+    background: url(media/BG.jpg);
+    background-repeat:initial;
+    background-size: contain;
+}
+
+.video-container {
+    border-radius: 40px;
+    width: 93%;
+}
+
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+    background-color: rgb(112, 170, 188);
+}
+
+nav .brand-logo {
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+nav ul a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* For card result design */
+.card .card-image {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    flex-basis: 25rem;
+    flex-shrink: 0;
+    overflow-y: hidden;
+}
+
+.card .card-content {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    border-radius: 30px;
+    background-color: #8BC0CB;
+
+}
+
+#redirect {
+    background-color:#131010;
+}
